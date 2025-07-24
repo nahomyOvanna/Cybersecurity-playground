@@ -1,17 +1,17 @@
 # ⚔️🛡️ **Network Security: Attack & Defense**
 
-## 🎯 Objective
+##  Objective
 
 Simulate a network attack and defense by performing an Nmap scan, configuring a firewall on Ubuntu, and capturing traffic with Wireshark to analyze the impact of security measures.
 
-## 📘 Skills Learned
+##  Skills Learned
 
 - Network scanning with Nmap
 - Configuring firewalls (UFW)
 - Traffic capture and analysis with Wireshark
 - Documenting findings and creating network diagrams
 
-## 🛠️ Tools Used
+##  Tools Used
 
 - Ubuntu (Target VM)
 - Kali Linux (Attacker VM)
@@ -19,11 +19,11 @@ Simulate a network attack and defense by performing an Nmap scan, configuring a 
 - UFW (Firewall)
 - Wireshark
 
-## 👣 Steps
+##  Steps
 
 
 
-### 1. **Find the IP Address of Ubuntu** 🖥️🔍
+### 1. **Find the IP Address of Ubuntu** 
    
 - On the Ubuntu VM, open the terminal and run:  **ip a**
 
@@ -33,7 +33,7 @@ Simulate a network attack and defense by performing an Nmap scan, configuring a 
 
 
 
-### 2. **Find the IP Address of Kali Linux** 🖥️🔍
+### 2. **Find the IP Address of Kali Linux** 
 
 - On the Kali Linux VM, open the terminal and run:   **ip a**
 
@@ -43,7 +43,7 @@ Simulate a network attack and defense by performing an Nmap scan, configuring a 
 
 
 
-### 3.  **Launch an Nmap Scan from Kali Linux** 🚨🛠️
+### 3.  **Launch an Nmap Scan from Kali Linux**
 
 - On Kali Linux, open the terminal and run:   **nmap -A 10.0.2.15**
 
@@ -53,7 +53,7 @@ Simulate a network attack and defense by performing an Nmap scan, configuring a 
 
 
 
-### 4. **Set Up a Firewall on Ubuntu** 🔥🛡️
+### 4. **Set Up a Firewall on Ubuntu** 
 
 - To block unauthorized access, set up a firewall on Ubuntu:
 
@@ -81,7 +81,7 @@ Simulate a network attack and defense by performing an Nmap scan, configuring a 
 
 
 
-### 5. **Install Wireshark on Ubuntu** 💻🔧
+### 5. **Install Wireshark on Ubuntu** 
 
 - To capture network traffic, install Wireshark on Ubuntu:
 
@@ -93,7 +93,7 @@ Simulate a network attack and defense by performing an Nmap scan, configuring a 
 
 
 
-### 6. **Capture Network Traffic with Wireshark** 🐟🔎
+### 6. **Capture Network Traffic with Wireshark** 
 
 - Open Wireshark on Ubuntu by running:  **sudo wireshark**
 
@@ -107,7 +107,7 @@ Simulate a network attack and defense by performing an Nmap scan, configuring a 
 
 
 
-### 7. **Re-run the Nmap Scan from Kali Linux** 🔄🧑‍💻🔍
+### 7. **Re-run the Nmap Scan from Kali Linux** 
 
 - On Kali Linux, run the Nmap scan again: **nmap -A 10.0.2.15**
 
@@ -121,7 +121,7 @@ Simulate a network attack and defense by performing an Nmap scan, configuring a 
 
 
 
-### 8. **Network Diagram** 🗺️🔗
+### 8. **Network Diagram** 
 
                             +------------------+
                             |    VirtualBox    |
@@ -158,7 +158,7 @@ Simulate a network attack and defense by performing an Nmap scan, configuring a 
 
 
 
- ## Conclusion: ✅🔒📊
+ ## Conclusion: 
 
 This project demonstrated how to simulate a network attack and defense. Using Nmap, I identified vulnerabilities on Ubuntu, then configured a firewall (UFW) to block unauthorized access. Wireshark captured network traffic, showing the effectiveness of the firewall in blocking attack attempts. The project provided hands-on experience with network scanning, firewall configuration, and traffic analysis, reinforcing key concepts in network security.
 
